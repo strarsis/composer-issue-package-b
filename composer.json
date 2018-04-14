@@ -1,0 +1,21 @@
+{
+    "name": "test/package-B",
+    "description": "Package B",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "strarsis",
+            "email": "strarsis@gmail.com"
+        }
+    ],
+	"repositories": [
+		{
+		  "url": "../composer-issue-package-c",
+		  "type": "vcs"
+		}
+	],
+    "require": {
+		"test/package-c": "^1.0.0"
+	}
+}

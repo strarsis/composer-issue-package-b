@@ -1,0 +1,42 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "dfb233af12dac4d5046b15e69895afde",
+    "packages": [
+        {
+            "name": "test/package-c",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "../package-c",
+                "reference": "ea09fbefad0644be4836d599d5d8143df5a2f12c"
+            },
+            "require": {
+                "test/package-c": "^1.0.0"
+            },
+            "type": "library",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "strarsis",
+                    "email": "strarsis@gmail.com"
+                }
+            ],
+            "description": "Package C",
+            "time": "2018-04-14T23:12:25+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
