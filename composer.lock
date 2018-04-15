@@ -4,18 +4,15 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "dfb233af12dac4d5046b15e69895afde",
+    "content-hash": "b2881b43a99161e04e43655c4d376ece",
     "packages": [
         {
             "name": "test/package-c",
             "version": "v1.0.0",
             "source": {
                 "type": "git",
-                "url": "../package-c",
-                "reference": "ea09fbefad0644be4836d599d5d8143df5a2f12c"
-            },
-            "require": {
-                "test/package-c": "^1.0.0"
+                "url": "../composer-issue-package-c",
+                "reference": "35799d25b5a6c3fc2bf0beaaf29ff087cd3d0fa4"
             },
             "type": "library",
             "license": [
@@ -28,7 +25,7 @@
                 }
             ],
             "description": "Package C",
-            "time": "2018-04-14T23:12:25+00:00"
+            "time": "2018-04-14T23:22:01+00:00"
         }
     ],
     "packages-dev": [],

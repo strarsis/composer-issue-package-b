@@ -1,5 +1,5 @@
 {
-    "name": "test/package-B",
+    "name": "test/package-b",
     "description": "Package B",
     "type": "library",
     "license": "MIT",
